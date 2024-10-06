@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    left {
+        float: left;
+        align-items: center;
+        padding-right:   20px; 
+        padding-top: 100px;
+    }
+    right {
+        float: right;
+    }
+    .fix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    img {
+        max-width: 100%; /* Ensures the image scales within the container */
+        height: auto;
+        border-radius:  50%;
+    }
+    .contain {
+        display: flex;
+        justify-content: center;
+    padding-left: 10px;
+    }
+    .about-section {
+      text-align: left;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+</style>
+
+<body>
+    <header>
+        <section>
+            <nav class="navbar">
+                <div id="logo">My personal site</div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="picture.html">Picture</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <div class = "contain">
+           <left> <div class="about-section">
+            <h1>About me</h1>
+            <p>My name is Trầm Lê Mạnh</p>
+            <p>I am an IT student at International University</p>
+          </div>
+            </left>
+             
+            <right><img 
+            src="https://scontent.fsgn16-1.fna.fbcdn.net/v/t1.6435-9/199355290_2850934535169416_9199803869211194944_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeEVHlt19Zd-3U4rFqH_q96MCpJidA-lziYKkmJ0D6XOJsvM7buP1JSMX22IVGGych0WVfoZZm5IFM-q8bUlBels&_nc_ohc=LlYp-31Wc40Q7kNvgFq5fY_&_nc_ht=scontent.fsgn16-1.fna&oh=00_AYBfaYmM4FUyurjPWOrnoEfxNkzDt6L1EKpjBtqSdjj-DA&oe=672077D8" alt=""></right>
+        
+    </div>
+</main>
+    <footer>
+    </footer>
+
+</body>
+</html>
